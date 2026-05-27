@@ -9,3 +9,43 @@
     "GRAD" 0;
 }
 
+/* Nav */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    background-color: #F7FFF7;
+    height: 80px;
+
+    color: #1A535C;
+}
+
+.col-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: auto;
+    height: 100%;
+}
+
+.navLink {
+    padding: 0 16px 0 16px;
+}
+
+.navBtn {
+    padding: 16px 24px 16px 24px;
+
+    border-radius: 32px;
+    background-color: #4ECDC4;
+    transition: all 0.15s ease-in;
+}
+
+.navBtn:hover {
+    cursor: pointer;
+
+    background-color: #3eb6ae;
+}

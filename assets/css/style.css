@@ -66,4 +66,65 @@ main header {
     background-image: url('./../img/SurfHero.png');
     background-position: center;
     background-size: cover;
+
+    align-items: center;
+    padding: 80px 10% 0 10%;
+}
+
+.headerTitle {
+    width: 100%;
+    font-size: 10vw;
+    font-weight: bold;
+    margin: 0 0 24px 0;
+}
+
+.headerTitle .type1 {
+    color: #FFE66D;
+
+    margin: 0 0 16px 0;
+}
+
+.headerTitle .type2 {
+    color: #FF6B6B;
+    /* Cor do preenchimento transparente */
+    -webkit-text-fill-color: transparent;
+
+    /* Contorno: espessura e cor */
+    -webkit-text-stroke: 5px #FF6B6B;
+
+    /* Fallback para navegadores sem suporte */
+    color: #000; /* usado se o stroke não funcionar */
+
+    margin: 0 0 16px 0;
+}
+
+.headerContent {
+    width: 50%;
+}
+
+.headerContent div {
+    width: 100%;
+    display: flex;
+    margin: 0 0 16px 0;
+
+    color: #F7FFF7;
+    font-size: 18px;
+}
+
+.headerEstatisticas {
+    width: 33.33%;
+    flex-direction: column;
+}
+
+.headerEstatisticas h1 {
+    color: #FF6B6B;
+    font-size: 40px;
+    font-weight: bold;
+
+    margin: 0 0 16px 0;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto 0 auto;
 }

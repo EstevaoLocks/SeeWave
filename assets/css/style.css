@@ -128,3 +128,23 @@ section {
     width: 80%;
     margin: 0 auto 0 auto;
 }
+
+section.sobre {
+    padding: 144px 0 144px 0;
+}
+
+.sobreTitle {
+    display: flex;
+    align-items: center;
+
+    color: #FF6B6B;
+}
+
+.sobreTitle hr {
+    width: 48px;
+    margin: 0 16px 0 0;
+
+
+    border: none;
+    border-top: 2px solid #FF6B6B;
+}
